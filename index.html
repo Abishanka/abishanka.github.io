@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abishanka Saha</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/meteor.css">
+  <link rel="stylesheet" type="text/css" href="css/topnav.css">
+
+  <link rel="shortcut icon" type="image/png" href="/assets/images/Abishanka_Saha.png"/>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <div class='meteors'>
+    <div class='meteor'></div>
+    <div class='meteor'></div>
+    <div class='meteor'></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+    <div class="meteor"></div>
+  </div>
+
+  <!-- Topnav -->
+  <div class="topnav" id="myTopnav" style="color: white;">
+	  <a onclick="homeFunction()" class="active">Abishanka Saha</a>
+	  <a onclick="homeFunction()">Home</a>
+	  <a onclick="aboutFunction()">About</a>
+	  <a onclick="backgroundFunction()">Background</a>
+	  <a href="javascript:void(0);" class="icon" onclick="topNav()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
+  <!-- Main navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">| <img src="assets/images/Abishanka_Saha.png" alt="Logo"> | Abishanka Saha</a>
+      </div>
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="btn btn-outline-info btn-lg" onclick="homeFunction()">Home</a></li>
+        &nbsp; &nbsp;
+        <li class="nav-item"><a class="btn btn-outline-info btn-lg" onclick="aboutFunction()">About</a></li>
+        &nbsp; &nbsp;
+        <li class="nav-item"><a class="btn btn-outline-info btn-lg" onclick="backgroundFunction()">Background</a></li>
+      </ul>
+  </nav>
+
+  <div class="Home">
+  <img src="assets/images/abishanka1.png" class="profilepicture">
+  <img src="assets/images/Abishanka.saha.png" class="mainimage"> 
+  </div>
+  <div class="shape"></div>
+
+  <script src="js/star.js"></script>
+  <script src="js/meteor.js"></script>
+  <script src="js/function.js"></script>
+  <script type="text/javascript">
+  	function topNav() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
+</body>
+</html>
