@@ -46,17 +46,16 @@
 /* For Mobile */
 
 @media only screen and (max-width: 767px) {
-#Picturemail 
-{
+#Picturemail {
 	background-color:transparent;
 	position: relative;
 }
 
-#Aboutext 
-{
+#Aboutext {
 	color: white; 
 	background-color:transparent; 
 	justify-content: center;
+	position: relative;
 	font-size: x-large;		
 }
 }
