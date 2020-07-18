@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767px) {
+	.shape:before {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  width: 80vw;
+  height: 3vh;
+  left: 0;
+  background: teal;
+  z-index: 1;
+  border-radius: 20% 50% 0 0;
+}
+
+.shape:after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80vw;
+  height: 5vh;
+  background: teal;
+  z-index: 1;
+  border-radius: 150% 0 0 0;
+}
+}
