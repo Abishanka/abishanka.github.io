@@ -27,6 +27,16 @@ body {
   line-height: 1.5;
 }
 
+.navbarbutton {
+  font-size: 1.4rem;
+  font-family: nexa light;
+  color: white;
+}
+
+.navbarbutton:hover{
+  color: #009999;
+  } 
+
 section,
 .container,
 .container-fluid {
