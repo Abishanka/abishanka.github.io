@@ -1,0 +1,34 @@
+.topnav {
+  overflow: hidden;
+  color: white;
+  margin-top: 7.5%;
+}
+
+.topnav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.topnav a:hover {
+  color: #009999;
+}
+
+.topnav a.onclick {
+  background-color: #009999;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .topnav {
+    margin-top: 20%;
+}
+
+}
